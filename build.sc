@@ -6,10 +6,20 @@ trait CommonModule extends ScalaModule {
 }
 
 object Examples extends CommonModule with ScalafmtModule {
-  def ivyDeps = Agg(ivy"com.lihaoyi::os-lib:0.3.0", ivy"com.lihaoyi::requests:0.2.0")
+  def ivyDeps = Agg(
+    ivy"com.lihaoyi::os-lib:0.3.0",
+    ivy"com.lihaoyi::requests:0.2.0",
+    ivy"org.typelevel::cats-core:2.0.0-RC1"
+  )
 
   def compileIvyDeps = Agg(ivy"com.lihaoyi::acyclic:0.2.0")
-  def scalacOptions = Seq("-P:acyclic:force")
+  def scalacOptions = Seq(
+    "-P:acyclic:force",
+    "-Xfatal-warnings",
+    "-Ypartial-unification",
+    "-Xlint",
+    "-feature"
+  )
   def scalacPluginIvyDeps = Agg(ivy"com.lihaoyi::acyclic:0.2.0")
 
   object ch1 extends CommonModule {

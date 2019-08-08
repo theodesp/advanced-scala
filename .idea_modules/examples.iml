@@ -13,6 +13,12 @@
         <orderEntry type="library" name="scala-sdk-2.13.0" level="application"/>
         <orderEntry type="library" name="acyclic_2.13-0.2.0-sources.jar" level="project"/>
         <orderEntry type="library" name="acyclic_2.13-0.2.0.jar" level="project"/>
+        <orderEntry type="library" name="cats-core_2.13-2.0.0-RC1-sources.jar" level="project"/>
+        <orderEntry type="library" name="cats-core_2.13-2.0.0-RC1.jar" level="project"/>
+        <orderEntry type="library" name="cats-kernel_2.13-2.0.0-RC1-sources.jar" level="project"/>
+        <orderEntry type="library" name="cats-kernel_2.13-2.0.0-RC1.jar" level="project"/>
+        <orderEntry type="library" name="cats-macros_2.13-2.0.0-RC1-sources.jar" level="project"/>
+        <orderEntry type="library" name="cats-macros_2.13-2.0.0-RC1.jar" level="project"/>
         <orderEntry type="library" name="geny_2.13-0.1.8-sources.jar" level="project"/>
         <orderEntry type="library" name="geny_2.13-0.1.8.jar" level="project"/>
         <orderEntry type="library" name="os-lib_2.13-0.3.0-sources.jar" level="project"/>
