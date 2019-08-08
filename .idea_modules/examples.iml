@@ -1,0 +1,25 @@
+<module type="JAVA_MODULE" version="4">
+    <component name="NewModuleRootManager">
+        <output url="file://$MODULE_DIR$/../out/Examples/compile/dest/classes"/>
+        <exclude-output/>
+        <content url="file://$MODULE_DIR$/../out/Examples/generatedSources/dest"/>
+        <content url="file://$MODULE_DIR$/../Examples">
+            <sourceFolder url="file://$MODULE_DIR$/../Examples/src" isTestSource="false"/>
+            <sourceFolder url="file://$MODULE_DIR$/../Examples/resources" type="java-resource"/>
+            <excludeFolder url="file://$MODULE_DIR$/../Examples/target"/>
+        </content>
+        <orderEntry type="inheritedJdk"/>
+        <orderEntry type="sourceFolder" forTests="false"/>
+        <orderEntry type="library" name="scala-sdk-2.13.0" level="application"/>
+        <orderEntry type="library" name="acyclic_2.13-0.2.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="acyclic_2.13-0.2.0.jar" level="project"/>
+        <orderEntry type="library" name="geny_2.13-0.1.8-sources.jar" level="project"/>
+        <orderEntry type="library" name="geny_2.13-0.1.8.jar" level="project"/>
+        <orderEntry type="library" name="os-lib_2.13-0.3.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="os-lib_2.13-0.3.0.jar" level="project"/>
+        <orderEntry type="library" name="requests_2.13-0.2.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="requests_2.13-0.2.0.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.13.0-sources.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.13.0.jar" level="project"/>
+    </component>
+</module>
