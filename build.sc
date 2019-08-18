@@ -38,6 +38,10 @@ object Examples extends CommonModule with ScalafmtModule {
     def moduleDeps = Seq(Examples)
   }
 
+  object ch5 extends CommonModule {
+    def moduleDeps = Seq(Examples)
+  }
+
   object test extends Tests {
     def ivyDeps = Agg(ivy"com.lihaoyi::utest:0.7.1")
     def testFrameworks = Seq("utest.runner.Framework")
